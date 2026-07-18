@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경 이미지 꽉 채우기</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* 배경 이미지 설정 */
+            background-image: url('a.jpg');
+            
+            /* 이미지가 반복되지 않도록 설정 */
+            background-repeat: no-repeat;
+            
+            /* 이미지가 화면 정중앙에 오도록 설정 */
+            background-position: center;
+            
+            /* 핵심: 이미지가 화면 비율에 맞춰 꽉 차도록 설정 */
+            background-size: cover;
+            
+            /* 스크롤할 때 배경은 고정되도록 설정 (선택사항) */
+            background-attachment: fixed;
+            
+            /* 화면 전체 높이를 차지하도록 설정 */
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 이 안에 웹사이트 내용을 작성하시면 됩니다 -->
+
+</body>
+</html>
